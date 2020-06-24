@@ -1,0 +1,32 @@
+{
+    "name": "juninhoitabh/cpf-cnpj",
+    "description": "Com esse pacote você poderá realizar consultas de CNPJ e CPF gratuitamente.",
+    "keywords": ["CPF", "CNPJ", "php", "receitaws"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junior Paz",
+            "email": "juninhoitabh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CNPJCPF\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "phpunit/php-timer": "^5.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
